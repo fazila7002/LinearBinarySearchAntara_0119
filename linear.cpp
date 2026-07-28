@@ -8,17 +8,19 @@ int i;
 
 void input() 
 {
-    while (true)
+       while (true)
     {
-        cout << "Masukkan banyaknya elemen pada array (maksimal 20):";
+        cout << "Masukkan banyaknya elemen pada array (maksimal 20): ";
         cin >> n;
-    }
-    if (n > 0 && <= 20)
-    {
-        break;
-    } 
-    else{
-        cout << "\nMinimum jumlah element adalah 1 dan maksimal element adalah 20\n"<< endl;
+
+        if (n > 0 && n <= 20)
+        {
+            break;
+        }
+        else
+        {
+            cout << "\nMinimum jumlah elemen adalah 1 dan maksimal elemen adalah 20\n" << endl;
+        }
     }
 
 
@@ -34,33 +36,37 @@ void input()
 }
 
 
-void linearSearch(){
-
+void linearSearch()
+{
     char ch;
     int ctr;
     int item;
 
     do
     {
-        cout << "Masukkan elemen yang idcari : ";\n
+        cout << "\nMasukkan elemen yang dicari: ";
         cin >> item;
 
         ctr = 0;
-        i= 0;
-    } 
-        
-    while (i < n)
-    {
-        ctr++;
-        if (arr[i] == item)
+        i = 0;
+
+        while (i < n)
         {
-            cout <<  "\n"<< item << "ditemukan pada posisi ke- " << (i+1) << endl; 
-            break;
+            ctr++;
+
+            if (arr[i] == item)
+            {
+                cout << "\n"
+                     << item
+                     << " ditemukan pada posisi ke-"
+                     << (i + 1)
+                     << endl;
+
+                break;
+            }
+
+            i++;
         }
-        i++;
-    }
-    
-    {
     
     if (i == n)
         {
@@ -74,6 +80,7 @@ void linearSearch(){
 
     } while (ch == 'y' || ch == 'Y');
 }
+
 
 void display()
 {
