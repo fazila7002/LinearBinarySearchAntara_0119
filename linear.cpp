@@ -13,5 +13,15 @@ void input()
         cout << "Masukkan banyaknya elemen pada array (maksimal 20):";
         cin >> n;
     }
+    if (n > 0 && <= 20)
+    {
+        break;
+    } 
+    else{
+        cout << "\nMinimum jumlah element adalah 1 dan maksimal element adalah 20\n"<< endl;
+    }
+
+    
+
 
 }
