@@ -59,3 +59,18 @@ void linearSearch(){
         }
         i++;
     }
+    
+    {
+    
+    if (i == n)
+        {
+            cout << "\n"<< item <<" tidak ditemukan di dalam array."<< endl;
+        }
+
+        cout << "Jumlah nilai yang dibandingkan = " << ctr << endl;
+
+        cout << "\nLanjut ke pencarian lain? (y/t): ";
+        cin >> ch;
+
+    } while (ch == 'y' || ch == 'Y');
+}
