@@ -74,3 +74,15 @@ void linearSearch(){
 
     } while (ch == 'y' || ch == 'Y');
 }
+
+void display()
+{
+    cout << "\nElemen array adalah:\n";
+
+    for (i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
+    cout << endl;
+}
