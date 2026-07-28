@@ -31,8 +31,14 @@ void input()
         cout << "<" << (i+ 1) << ">";
         cin >> arr [i];
     }
+}
+
+
+void linearSearch(){
+
+    char ch;
+    int ctr;
+    int item;
 
     
-
-
 }
