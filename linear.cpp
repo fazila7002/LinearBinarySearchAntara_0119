@@ -24,7 +24,13 @@ void input()
 
     cout << "\n====================\n";
     cout << "Masukkan Element Array\n";
-    cout << "\n====================\n;
+    cout << "\n====================\n";
+
+    for (i= 0; i< n; i++)
+    {
+        cout << "<" << (i+ 1) << ">";
+        cin >> arr [i];
+    }
 
     
 
