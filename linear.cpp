@@ -40,5 +40,22 @@ void linearSearch(){
     int ctr;
     int item;
 
-    
-}
+    do
+    {
+        cout << "Masukkan elemen yang idcari : ";\n
+        cin >> item;
+
+        ctr = 0;
+        i= 0;
+    } 
+        
+    while (i < n)
+    {
+        ctr++;
+        if (arr[i] == item)
+        {
+            cout <<  "\n"<< item << "ditemukan pada posisi ke- " << (i+1) << endl; 
+            break;
+        }
+        i++;
+    }
