@@ -21,6 +21,11 @@ void input()
         cout << "\nMinimum jumlah element adalah 1 dan maksimal element adalah 20\n"<< endl;
     }
 
+
+    cout << "\n====================\n";
+    cout << "Masukkan Element Array\n";
+    cout << "\n====================\n;
+
     
 
 
